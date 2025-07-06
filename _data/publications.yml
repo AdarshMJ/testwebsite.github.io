@@ -1,0 +1,132 @@
+- title: "GNNs Getting ComFy : Community and Feature Similarity Guided Rewiring."
+  authors:    
+    - "Celia Rubio-Madrigal*"
+    - "Adarsh Jamadandi*"
+    - "Rebekka Burkholz"
+  year: 2025
+  venue: "ICLR"
+  url: "https://arxiv.org/abs/2502.04891"
+  code: "https://github.com/CeliaRubio/GNNs_getting_ComFy"
+  image: "/assets/publications/comfy_overview.jpg"
+  note: "*Equal contributions"
+  abstract: "Graph rewiring methods have emerged as a powerful technique to address over-squashing and over-smoothing in Graph Neural Networks (GNNs). However, the underlying mechanisms that drive their effectiveness remain poorly understood. In this work, we investigate why spectral gap maximization works as a rewiring objective and under what conditions it may fail. We show that maximizing the spectral gap is not always beneficial and introduce a novel framework that leverages both community structure and feature similarity to guide graph rewiring. Our method, ComFy, demonstrates superior performance across multiple benchmarks while providing theoretical insights into the rewiring process."
+  bibtex: |
+    @inproceedings{rubio2025gnns,
+      title={GNNs Getting ComFy: Community and Feature Similarity Guided Rewiring},
+      author={Rubio-Madrigal, Celia and Jamadandi, Adarsh and Burkholz, Rebekka},
+      booktitle={International Conference on Learning Representations},
+      year={2025}
+    }
+
+- title: "Spectral Pruning Against Over-Squashing and Over-Smoothing."
+  authors:
+    - "Adarsh Jamadandi*"
+    - "Celia Rubio-Madrigal*"
+    - "Rebekka Burkholz"
+  year: 2024
+  venue: "NeurIPS"
+  url: "https://arxiv.org/abs/2404.04612"
+  code: "https://github.com/AdarshMJ/Spectral_Pruning"
+  image: "/assets/publications/spectral_pruning.jpg"
+  slides: "/assets/publications/spectral_pruning_slides.pdf"
+  note: "*Equal contributions"
+  abstract: "We introduce the Braess Paradox in the context of Graph Neural Networks for the first time, showing that adding edges to a graph can actually hurt performance. Building on this insight, we propose a novel spectral graph pruning strategy that simultaneously addresses over-squashing and over-smoothing. Our method not only improves GNN performance but also discovers graph lottery tickets - sparse subgraphs that maintain or exceed the performance of the full graph."
+  bibtex: |
+    @inproceedings{jamadandi2024spectral,
+      title={Spectral Pruning Against Over-Squashing and Over-Smoothing},
+      author={Jamadandi, Adarsh and Rubio-Madrigal, Celia and Burkholz, Rebekka},
+      booktitle={Advances in Neural Information Processing Systems},
+      year={2024}
+    }
+
+- title: "Graph of Thrones: Adversarial Perturbations dismantle Aristocracy in Graphs."
+  authors:
+    - "Adarsh Jamadandi"
+    - "Uma Mudenagudi"
+  year: 2020
+  venue: "AAAI Student Poster, 2021. Extended Version in Differential Geometry meets Deep Learning - DiffGeo4DL (NeurIPS)"
+  url: "https://nips.cc/virtual/2020/20233"
+  image: "/assets/publications/graph_of_thrones.jpg"
+  abstract: "This paper investigates the effect of adversarial perturbations on the hyperbolicity of graphs. Learning low-dimensional embeddings of graph data in certain curved Riemannian manifolds has recently gained traction due to their desirable property of acting as useful geometrical inductive biases. More specifically, models of Hyperbolic geometry such as Poincare Ball and Hyperboloid Model have found extensive applications for learning representations of discrete data such as Graphs and Trees with hierarchical anatomy. The hyperbolicity concept indicates whether the graph data under consideration is suitable for embedding in hyperbolic geometry. Lower values of hyperbolicity imply distortion-free embedding in hyperbolic space. We study adversarial perturbations that attempt to poison the graph structure, consequently rendering hyperbolic geometry an ineffective choice for learning representations. To circumvent this problem, we advocate for utilizing Lorentzian manifolds in machine learning pipelines and empirically show they are better suited to learn hierarchical relationships. Despite the recent proliferation of adversarial robustness methods in the graph data, this is the first work that explores the relationship between adversarial attacks and hyperbolicity property while also providing resolution to navigate such vulnerabilities."
+  bibtex: |
+    @inproceedings{jamadandi2020graph,
+      title={Graph of Thrones: Adversarial Perturbations dismantle Aristocracy in Graphs},
+      author={Jamadandi, Adarsh and Mudenagudi, Uma},
+      booktitle={AAAI Conference on Artificial Intelligence Student Abstract and Poster Program},
+      year={2021}
+    }
+
+- title: "Probabilistic Word Embeddings in Kinematic Space."
+  authors:
+    - "Adarsh Jamadandi"
+    - "Rishabh Tigadoli"
+    - "Ramesh Tabib"
+    - "Uma Mudenagudi"
+  year: 2020
+  venue: "International Conference on Pattern Recognition (ICPR)"
+  url: "https://doi.org/10.1109/ICPR48806.2021.9412050"
+  image: "/assets/publications/kinematic_space.jpg"
+  abstract: "In this paper, we propose a method for learning representations in the space of Gaussian-like distribution defined on a novel geometrical space called Kinematic space. The utility of non-Euclidean geometry for deep representation learning has recently been in vogue, specifically models of hyperbolic geometry such as Poincaré and Lorentz models have proven useful for learning hierarchical representations. Going beyond manifolds with constant curvature, albeit has better representation capacity might lead to unhanding of computationally tractable tools like Riemannian optimization methods. Here, we explore a pseudo-Riemannian auxiliary Lorentzian space called Kinematic space and provide a principled approach for constructing a Gaussian-like distribution, which is compatible with gradient-based learning methods, to formulate a probabilistic word embedding framework. Contrary to, mapping lexically distributed representations to a single point vector in Euclidean space, we advocate for mapping entities to density-based representations, as it provides explicit control over the uncertainty in representations. We test our framework by embedding WordNet-Noun hierarchy, a large lexical database, our experiments report strong consistent improvements in Mean Rank and Mean Average Precision (MAP) values compared to probabilistic word embedding frameworks defined on Euclidean and hyperbolic spaces. We show an average improvement of 72.68% in MAP and 82.60% in Rank compared to the hyperbolic version. Our work serves as evidence for the utility of novel geometrical spaces for learning hierarchical representations."
+  bibtex: |
+    @inproceedings{jamadandi2020probabilistic,
+      title={Probabilistic Word Embeddings in Kinematic Space},
+      author={Jamadandi, Adarsh and Tigadoli, Rishabh and Tabib, Ramesh and Mudenagudi, Uma},
+      booktitle={2020 25th International Conference on Pattern Recognition (ICPR)},
+      pages={9670--9677},
+      year={2021},
+      organization={IEEE}
+    }
+
+- title: "Exemplar-based Underwater Image Enhancement Augmented by Wavelet Corrected Transforms."
+  authors:
+    - "Adarsh Jamadandi"
+    - "Uma Mudenagudi"
+  year: 2019
+  venue: "Computer Vision and Pattern Recognition (CVPR Workshop, Oral)"
+  url: "https://openaccess.thecvf.com/content_CVPRW_2019/papers/AAMVEM/Jamadandi_Exemplar-based_Underwater_Image_Enhancement_Augmented_by_Wavelet_Corrected_Transforms_CVPRW_2019_paper.pdf"
+  image: "/assets/publications/underwater_enhancement.jpg"
+  abstract: "In this paper we propose a novel deep learning framework to enhance underwater images by augmenting our network with wavelet corrected transformations. Wavelet transforms have recently made way into deep learning frameworks and their ability to reconstruct arbitrary signals accurately makes them favourable for many applications. Underwater images are subjected to unique distortions, this is mainly attributed to the fact that red wavelength light gets absorbed dominantly giving a greenish, blue hue. This wavelength dependent selective absorption of light and also scattering by the suspended particles introduce non-linear distortions that affect the quality of the images. We propose an encoder-decoder module with wavelet pooling and unpooling as one of the network components to perform progressive whitening and coloring transforms to enhance underwater images via realistic style transfer. We give a sound theoretical proof as to why wavelet transforms are better for signal reconstruction. We demonstrate our proposed framework on popular underwater images dataset and evaluate it using metrics like SSIM, PSNR and UCIQE and show that we achieve state-of-the-art results compared to those mentioned in the literature."
+  bibtex: |
+    @inproceedings{jamadandi2019exemplar,
+      title={Exemplar-based Underwater Image Enhancement Augmented by Wavelet Corrected Transforms},
+      author={Jamadandi, Adarsh and Mudenagudi, Uma},
+      booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops},
+      pages={0--0},
+      year={2019}
+    }
+
+- title: "Learning Hierarchical Representations in Kinematic Space."
+  authors:
+    - "Adarsh Jamadandi"
+    - "Uma Mudenagudi"
+  year: 2019
+  venue: "Graph Representation Learning Workshop, Neural Information Processing Systems (NeurIPS)"
+  url: "https://grlearning.github.io/papers/3.pdf"
+  image: "/assets/publications/hierarchical_kinematic.jpg"
+  abstract: "Learning efficient representation of data for extracting useful information to build classifiers or predictors has opened up a new avenue in machine learning called Representation Learning. Hyperbolic embeddings is one such invaluable tool developed to represent discreet, structured and symbolic data like text, graphs and trees. Embedding data in hyperbolic space has many advantages contrary to using euclidean space, as it allows for preserving the distances and other complex relationships that exists between the symbolic data. In this paper, we explore the idea of obtaining hyperbolic embeddings by studying the kinematic space, first introduced to explain the underlying connection between information theory and AdS3/CFT2 correspondence encountered in theoretical physics. We investigate how to learn embeddings in kinematic space, note that our aim is not to provide a formal algorithm, but adopt a theoretic centric approach to explain a possible new way of obtaining hyperbolic embeddings. We hope this work serves as ingress for future works that will allow for a consilience between machine learning and theoretical physics."
+  bibtex: |
+    @inproceedings{jamadandi2019learning,
+      title={Learning Hierarchical Representations in Kinematic Space},
+      author={Jamadandi, Adarsh and Mudenagudi, Uma},
+      booktitle={Graph Representation Learning Workshop, Neural Information Processing Systems},
+      year={2019}
+    }
+
+- title: "PredGAN: a deep multi-scale video prediction framework for detecting anomalies in videos."
+  authors:
+    - "Adarsh Jamadandi"
+    - "Sunidhi Kotturshettar"
+    - "Uma Mudenagudi"
+  year: 2018
+  venue: "11th Indian Conference on Computer Vision, Graphics and Image Processing (ICVGIP '18)"
+  url: "https://doi.org/10.1145/3293353.3293354"
+  image: "/assets/publications/predgan.jpg"
+  abstract: "In this paper we propose a multi-scale video prediction framework with adversarial training for detecting anomalies in videos. Anomalous events are those which do not conform to normal behavior. Supervised learning framework cannot account for all the unusual activities since a universal definition of anomaly cannot be adopted. To tackle this problem, we propose an unsupervised approach to learn the internal representation of videos and use this learning to accurately predict the future-frames of the videos. We train our network adversarially on videos consisting of only normal activities. When our network encounters unusual or irregular activities the generated frames consists of fuzzy regions where the irregular activities are present. These fuzzy regions consequently lower the peak signal to noise ratio (PSNR) of the generated frames. The PSNR values are normalized to have values between 0 and 1 and is used as a regularity score to tag a frame as anomalous or not-anomalous. We provide quantitative and qualitative evaluation of the proposed framework and also introduce Earth Mover's Distance as a new evaluation metric to assess the quality of the images generated. We demonstrate our framework on UCSD Pedestrian dataset and show that we achieve comparable results."
+  bibtex: |
+    @inproceedings{jamadandi2018predgan,
+      title={PredGAN: a deep multi-scale video prediction framework for detecting anomalies in videos},
+      author={Jamadandi, Adarsh and Kotturshettar, Sunidhi and Mudenagudi, Uma},
+      booktitle={Proceedings of the 11th Indian Conference on Computer Vision, Graphics and Image Processing},
+      pages={1--8},
+      year={2018}
+    }
