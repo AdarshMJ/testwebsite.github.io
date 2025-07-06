@@ -1,7 +1,7 @@
 ---
-title: "Adarsh Jamadandi - Publications"
+title: "Publications"
 layout: publay
-excerpt: "Adarsh Jamadandi -- Publications."
+excerpt: "Publications."
 sitemap: false
 permalink: /publications/
 order: 3
