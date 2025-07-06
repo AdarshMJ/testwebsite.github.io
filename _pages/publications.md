@@ -1,12 +1,19 @@
 ---
 title: "Publications"
-layout: publay
-excerpt: "Publications."
-sitemap: false
+layout: page
 permalink: /publications/
 order: 3
 ---
 
 # Publications
 
-Below is a comprehensive list of my research publications in graph neural networks, geometric deep learning, and computer vision. Each entry includes the abstract, relevant links, and BibTeX citation.
+This is a test publications page.
+
+{% for pub in site.data.publications %}
+## {{ pub.title }}
+**Authors:** {{ pub.authors | join: ", " }}  
+**Venue:** {{ pub.venue }} ({{ pub.year }})  
+**URL:** [{{ pub.url }}]({{ pub.url }})
+
+---
+{% endfor %}
